@@ -7,9 +7,7 @@ interface ComponentT{
 class Component<T> {
   constructor (public props:T) {}
 }
-interface PageT extends ComponentT{
-  title:string;
-}
+
 class Page extends Component<ComponentT>{
 
 pageInfo (){
